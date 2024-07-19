@@ -73,9 +73,9 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html#news">News</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="index.html#team">Team</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="index.html#contact">Contact</a>
             </li>
@@ -365,7 +365,7 @@
               $("#responseMessage").html(
                 '<div class="alert alert-success">Your request has been sent successfully.</div>'
               );
-              let msg=(JSON.parse(response).status=='success')?'Thank you for your Sponsorship.':'A problem has occurred.'
+              let msg=(JSON.parse(response).status=='success')?'Thank you so much for contacting and submitting the Sponsorship form to Leap of Dance Academy in Nigeria. We will get back in touch with you soon.':'A problem has occurred.'
                       Swal.fire({
                         title: 'Hello '+$("#name").val(),
                         text: msg,

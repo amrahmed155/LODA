@@ -30399,3 +30399,8 @@ dl li {
       }
 
       .lightFontWeight{font-weight: lighter;}
+      #viewEmail {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
